@@ -1,4 +1,6 @@
 .terraform/
 *.tfstate
 .terraform.lock.hcl
-variables.tf
+*.backup
+spot-account-test
+externalid.json
