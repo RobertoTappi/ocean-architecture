@@ -2,5 +2,4 @@
 *.tfstate
 .terraform.lock.hcl
 *.backup
-spot-account-test
 externalid.json
