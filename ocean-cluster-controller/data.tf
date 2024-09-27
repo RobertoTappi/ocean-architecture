@@ -4,9 +4,11 @@ data "aws_iam_instance_profiles" "profile" {
 }
 
 data "aws_eks_cluster" "cluster" {
+  depends_on = [module.eks]
   name = var.cluster_name
 }
 
 data "aws_eks_cluster_auth" "cluster" {
+  depends_on = [module.eks]
   name = var.cluster_name
 }
