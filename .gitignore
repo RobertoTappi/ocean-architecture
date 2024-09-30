@@ -3,4 +3,4 @@
 .terraform.lock.hcl
 *.backup
 externalid.json
-terraform.tfvars
+/ocean-cluster-controller2

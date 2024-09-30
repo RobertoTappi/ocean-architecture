@@ -81,7 +81,6 @@ variable "instance_types_filters_exclude_families" {
 variable "instance_types_filters_exclude_metal" {
   description = "Exclude metal instances from filtering"
   type        = bool
-  default     = true
 }
 
 variable "instance_types_filters_hypervisor" {
